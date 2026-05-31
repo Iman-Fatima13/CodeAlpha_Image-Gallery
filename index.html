@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Image Gallery</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>✨ Advanced Image Gallery</h1>
+
+    <input type="text" id="search" placeholder="Search images...">
+  </header>
+
+  
+  <div class="filters">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="city">City</button>
+    <button data-filter="animals">Animals</button>
+  </div>
+
+  
+  <div class="gallery">
+
+  
+    <div class="card nature">
+      <img src="https://picsum.photos/id/1015/600/800">
+    </div>
+
+    <div class="card nature">
+      <img src="https://picsum.photos/id/1016/600/700">
+    </div>
+
+    <div class="card nature">
+      <img src="https://picsum.photos/id/1020/600/850">
+    </div>
+
+    <div class="card nature">
+      <img src="https://picsum.photos/id/1039/600/750">
+    </div>
+
+    <div class="card city">
+      <img src="https://picsum.photos/id/1043/600/800">
+    </div>
+
+    <div class="card city">
+      <img src="https://picsum.photos/id/1050/600/720">
+    </div>
+
+    <div class="card city">
+      <img src="https://picsum.photos/id/1063/600/870">
+    </div>
+
+    <div class="card city">
+      <img src="https://picsum.photos/id/1076/600/750">
+    </div>
+
+    <div class="card animals">
+      <img src="https://picsum.photos/id/1025/600/900">
+    </div>
+
+    <div class="card animals">
+      <img src="https://picsum.photos/id/1074/600/800">
+    </div>
+
+    <div class="card animals">
+      <img src="https://picsum.photos/id/1084/600/720">
+    </div>
+
+    <div class="card animals">
+      <img src="https://picsum.photos/id/169/600/850">
+    </div>
+
+  </div>
+
+  <div class="lightbox" id="lightbox">
+
+    <span id="close">&times;</span>
+
+    <button id="prev">&#10094;</button>
+
+    <img id="lightbox-img">
+
+    <button id="next">&#10095;</button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
